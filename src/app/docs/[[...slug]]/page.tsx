@@ -6,7 +6,7 @@ export default function Docs({
   };
 }) {
   if (params.slug?.length == 2) {
-    return <h1 className="text-2xl font-semibold">
+    return <h1 className="text-2xl font-semibold mt-10">
         Viewing docs for feature {params.slug[0]} and concept {params.slug[1]}
     </h1>;
   }
@@ -15,7 +15,7 @@ export default function Docs({
         Viewing docs for feature {params.slug[0]}
     </h1>
   }
-  return <h1 className="text-2xl font-semibold">
+  return <h1 className="text-2xl font-semibold m-10">
     Docs home page
   </h1>
 }
