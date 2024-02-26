@@ -6,7 +6,7 @@ export const generateMetadata = async ({
 }): Promise<Metadata> => {
   const title = await new Promise(resolve=>{
     setTimeout(()=>{
-      resolve(`iPhone ${params.productId}`)
+      resolve(`Product No. ${params.productId}`)
     },100)
   })
   return {
